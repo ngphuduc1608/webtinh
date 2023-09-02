@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+    color: blue;
+
+}
+#header .logo-header img{
+    width: 50px;
+    height: 50px;
+}
+.content1{
+    display: flex;
+    align-items: center;
+}
+.content1 p:first-child{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content2{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* body */
+#body{
+    margin-top: 30px;
+}
+.news{
+    padding-bottom: 50px;
+    border-bottom: 4px solid red;
+}
+.news h2{
+    color: yellow;
+    margin-bottom: 20px;
+}
+.news ul{
+    list-style-type: none;
+    margin-left: 5px;
+}
+.news ul li{
+    font-size: 18px;
+}
+.news ul li::before{
+    content: "\2022";
+    color: red;
+    font-size: 24px;
+    padding-right: 5px;
+}
+.content-body{
+    margin-top: 10px;
+}
+.content-body h3{
+    text-align: center;
+    color: rgb(43, 185, 43);
+    font-size: 20px;
+}
+.inner{
+    width: 350px;
+}
+.inner img{
+    width: 100%;
+    margin-top: 10px;
+}
+.inner p{
+    color: rgb(136, 172, 74);
+
+}
